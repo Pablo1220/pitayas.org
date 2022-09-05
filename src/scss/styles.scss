@@ -1,0 +1,45 @@
+$color: yellow;
+
+body{
+    background-color: $color;
+
+    // @media screen and (min-width: 768px){
+    //     color:blue
+    // }
+}
+ 
+
+.button{
+    border-radius: 0.4em;
+    padding: 0.4em 1em;
+    font-size: 1rem;
+}
+
+.button--red, .button--blue{
+    color:white;
+}
+
+.button--blue{
+    background-color: blue;   
+}
+
+.button--red{
+    background-color: red;
+}
+
+.button--ghost-blue, .button--ghost-red{
+    background-color: transparent;
+    border: .1em solid currentColor; 
+}
+
+.button--ghost-blue{
+    color: blue;
+}
+
+.button--ghost-red{
+    color: red
+}
+.green{
+    background-color: green;
+
+}
